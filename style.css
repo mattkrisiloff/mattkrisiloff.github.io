@@ -1,33 +1,43 @@
 body {
   background-color: #e6e2e7;
   text-align: center;
-  font-family: "SF UI Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: 'SF UI Display', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Helvetica, Arial, sans-serif;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
-img { 
+.info,
+img {
   width: 300px;
   max-width: 90%;
 }
 
-a, a:active, a:visited {
+a,
+a:active,
+a:visited {
   text-decoration: none;
   color: darkblue;
 }
 
 h1 {
- font-size: 12px;
- font-weight: 400;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 p {
-  font-size: 8px;
+  font-size: 9px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   height: 95vh;
   margin: 20px;
 }
-
